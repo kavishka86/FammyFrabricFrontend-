@@ -115,7 +115,7 @@ function App() {
           {/* <Route path='/display' element={<CutOrderDetails/>}/> */}
           {/* <Route path='/update/:id' element={<CutOrderUpdate/>}/> */}
 
-          <Route path="/userhome" element={<Homepage />} />
+          <Route path="/" element={<Homepage />} />
 
           <Route
             path="/emphome"
