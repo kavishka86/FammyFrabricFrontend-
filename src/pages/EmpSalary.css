@@ -1,0 +1,48 @@
+.container {
+    padding: 20px;
+    font-size: 16px;
+    background-color: #f0f2f5; /* Set background color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+}
+
+.form-group label {
+    width: 150px; /* Adjust label width for consistency */
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.primary-button {
+    background-color: #1890ff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: #40a9ff;
+}
+
+.table {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.Button-cons {
+    text-align: center;
+    margin-top: 20px;
+}

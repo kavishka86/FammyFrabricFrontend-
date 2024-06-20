@@ -1,0 +1,365 @@
+.famwrapper {
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+.famheader-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+   
+    transition: top 0.3s;
+    
+    background-color: #04a4d4;
+}
+
+.famnavbar {
+    width: 100%;
+    height: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+/* famlogo text editing */
+.famnavbar .famlogo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #eee;
+    text-decoration: none;
+    position: relative;
+    left: 90%;
+    top: -0px;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.famnavbar .links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    position: relative;
+    left: -200px;
+    top: 0%;
+}
+
+.famnavbar .links li {
+    list-style: none;
+}
+
+.famnavbar .links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.famnavbar .links li a:hover {
+    color: #ffd700 !important;
+    /* Change the color on hover as needed */
+}
+
+.famnavbar .famtoggle_btn {
+    color: #fff;
+    font-size: 1.0rem;
+    cursor: pointer;
+    margin-top: 0%;
+}
+
+.famtoggle_btn {
+    position: relative;
+    left: 55%;
+}
+
+/* famlogo editing */
+.famlogo {
+    position: relative;
+    z-index: 1000 !important;
+   
+   
+}
+
+.kkk{
+    margin-left: 150px;
+    width:110px;
+    height: 110px;
+    z-index: 1000 !important;
+}
+
+/* ///////////////////////////////////////////// */
+/* .action_btn {
+    background-color: orange;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;}
+    /* Add transition for color change */
+.fambutton {
+    cursor: pointer;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+    margin: 0 1px;
+    padding: 0.4rem 2.0rem;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+    display: flex;
+    /* flex-direction: column; */
+        /* align-items: center; */
+}
+
+.reg {
+    color: #594e4e;
+    background-color: #ffffff;
+    position: relative;
+    left: 100%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    
+    position: absolute;
+    bottom: -10px;
+    left: 100px;
+    text-decoration: none;
+    
+}
+
+.log {
+    color: #594e4e;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    bottom: -20px;
+    text-decoration: none;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.fambutton:hover {
+    color: white;
+    /* width: 10px; */
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: #c905c9;
+}
+
+.famempty-div {
+    height: 80px;
+    /* Adjust the height to match the height of your navigation bar */
+}
+
+#main-banner,
+#main-banner img {
+    width: 100%;
+}
+
+.famWelcome {
+    background-color: #0eae4e;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: -6%;
+    height: 50px !important;
+    width: 100% !important;
+}
+
+.famWelcome-dis {
+
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    /* left: 60%; */
+    top: 20%;
+}
+
+#main-banner img {
+    border-bottom: 16px solid #c905c9;
+}
+
+#home-menu h2 {
+    /* background-image: url(https://image.ibb.co/iKBuNa/menu_flag.png); */
+    background-repeat: no-repeat;
+    width: 156px;
+    height: 74px;
+    text-indent: -10000px;
+    margin: 0 auto;
+    position: relative;
+    top: -4px;
+}
+
+#home-menu ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Add the rest of your styles */
+
+#home-menu ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#home-menu li {
+    float: left;
+    width: 42%;
+    padding: 0;
+    margin: 20px 0 20px 8%;
+}
+
+#home-menu li:nth-child(odd) {
+    margin: 20px 8% 20px 0;
+}
+
+.famdish {
+    float: left;
+    color: #555;
+    font-size: x-large;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-right: 15px;
+}
+
+/* .price {
+    float: right;
+    color: #555;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    padding-left: 15px;
+} */
+
+.famdescription_topic {
+
+    clear: both;
+    display: block;
+    color: #999;
+    font-style: italic;
+    font-size: 16px;
+    padding-top: 10px;
+   
+    position: relative;
+    top: -8px;
+
+
+}
+
+.famdescription {
+    clear: both;
+    display: block;
+    color: #999;
+    font-style: italic;
+    font-size: 16px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    position: relative;
+    top: -8px;
+
+}
+
+#featured {
+   
+    background-color: #ffffff;
+}
+
+#featured ul {
+    padding: 0;
+}
+
+#featured ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#featured li {
+    float: left;
+    width: 23%;
+    margin: 1%;
+    list-style-type: none;
+}
+
+#featured li img {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+#featured li a {
+    color: #333;
+    text-decoration: none;
+    float: left;
+}
+
+#featured li span {
+    float: right;
+    color: #333;
+}
+
+.famfooter {
+    background: #2e2d2d !important;
+    margin-top: 100px;
+    padding: 30px 0;
+}
+
+.famfooter:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.famfooter ul {
+    float: left;
+    padding: 0;
+    list-style-type: none;
+    color: #eee;
+    width: 23%;
+    margin-right: 2%;
+}
+
+.famfooter li {
+    margin: 10px 0;
+    position: relative;
+    left: 80%;
+}
+
+.famfooter a {
+    color: #eee;
+    text-decoration: none;
+}
+
+
+/* #about-section {
+    position: relative;
+    right: 40%;
+}
+
+#contact-section {
+    position: relative;
+    left: 10%;
+
+} 
+
+/* ///////////////////////////// */

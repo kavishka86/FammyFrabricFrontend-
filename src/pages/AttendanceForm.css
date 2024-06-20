@@ -1,0 +1,36 @@
+/* Styles for container */
+.attendance-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+    background-image: url('../pages/image/Employee.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Styles for form */
+  .attendance-form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity as needed */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+  }
+  
+  /* Styles for form labels */
+  .ant-form-item-label {
+    font-weight: bold;
+  }
+  
+  /* Styles for form inputs */
+  .ant-input,
+  .ant-select-selector {
+    width: 100%;
+  }
+  
+  /* Styles for submit button */
+  .ant-btn-primary {
+    margin-top: 16px;
+  }
+  

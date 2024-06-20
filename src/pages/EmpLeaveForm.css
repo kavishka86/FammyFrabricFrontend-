@@ -1,0 +1,41 @@
+/* Styles for container */
+.leave-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+    padding: 20px !;
+  
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* Styles for form */
+.leave-form {
+    width: 100%; /* Adjust width as needed */
+
+    padding: 20px;
+    background-color:#f1eded; /* Adjust background color and opacity as needed */
+    border-radius: 8px;
+   
+    margin-top: 250px !important;
+    border: 1px black;
+
+}
+
+/* Styles for form labels */
+.ant-form-item-label {
+    font-weight: bold;
+}
+
+/* Styles for form inputs */
+.ant-input,
+.ant-select-selector {
+    width: 100%;
+}
+
+/* Styles for submit button */
+.ant-btn-primary {
+    margin-top: 16px;
+}

@@ -1,0 +1,73 @@
+/* ResTable.css */
+body {
+    background-color: #ffffff;
+    /* Change the background color of the entire page */
+}
+
+.table-container {
+    background-color: #ffffff;
+    /* border: 5px solid #151050; */
+    border-radius: 10px;
+    position: absolute;
+   
+    left:10px;
+    height: 60% !important;
+    width: 80% !important;
+}
+
+.table {
+    background-color: aqua;
+    /* width: 300px; */
+    border-collapse: collapse;
+}
+
+/* .custom-header {
+    background-color: #151050;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.custom-header th {
+    width: 10.666%;
+} */
+
+.update {
+    background-color: rgb(19, 37, 174) !important ;
+    /* Change the background color for the Update button */
+    color: white;
+    /* Change the text color for the Update button */
+}
+
+.delete {
+    background-color: red;
+    /* Change the background color for the Delete button */
+    color: white !important;
+    /* Change the text color for the Delete button */
+}
+
+/* ResAllReservation.css */
+
+/* Add styles to change the color of the table header */
+.ant-table-thead {
+    background-color: #151050;
+    /* Change the background color */
+    color: #ffffff !important;
+    /* Change the text color */
+    /* Add other styles as needed */
+}
+
+/* Add styles to customize the table header cells */
+.ant-table-thead th {
+    background-color: #151050 !important;/* Add styles as needed */
+    color: #ffffff !important;/* Add styles as needed */
+    /* Add other styles as needed */
+    /* text-align: center !important; */
+}
+
+.mb-1{
+  position: relative;
+  top:  80px;
+
+}
+

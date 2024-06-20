@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+}
+
+.text1{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.text2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.text3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-details{
+    background: #ffffff;
+    border-radius: 4px;
+    -ms-text-combine-horizontal: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 05);
+    margin: 20px;
+}
+
+
+.form-container {
+    background-image: url('../src/pages/image/card.png'); /* Adjust the path based on your project structure */
+    background-size: cover;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #98e9fb;
+    margin-top: 10px;
+}
+
+.form-container h2 {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+    box-sizing: border-box;
+}
+
+.form-container button[type="submit"]:hover {
+    padding: 10px 20px;
+    background-color: #1d5795;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Add some spacing between form elements */
+.form-container br {
+    margin-bottom: 20px;
+}
+
+.card{
+    box-shadow: 0 0 20px gray;
+    border-radius:  10px !important;
+    margin: 20px;
+    padding: 10px;
+    background-color: #b3f0fb;
+    font-size: large;
+    font-family: Helvetica;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    margin-right: 25px;
+    border: #fff;
+    border-radius: 5px;
+  }
+  
+  .update-btn {
+    background-color: #006e3c;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
+}
+
+  .savedCards-btn{
+    margin: 20px;
+    background-color: green;
+    color: white;
+    border: #fff;
+    border-radius: 5px;
+    padding: 3.3px;
+  }
+
+  .background {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+  .highlight {
+    background-color: #01ddffcf;
+    padding: 5px; 
+    border-radius: 5px; 
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .highlight2 {
+    background-color: #6ee7ff;
+    padding: 5px; 
+    border-radius: 5px; 
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .get-button{
+    background-color: #000000;
+    color: white;
+  }
+
+  .background-report {
+    background-image: url('../src/pages/image/Employee.jpg'); /* Adjust the path based on your project structure */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.background-card {
+    background-image: url('../src/pages/image/card.png'); /* Adjust the path based on your project structure */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

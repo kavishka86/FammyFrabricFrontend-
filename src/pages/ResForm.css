@@ -1,0 +1,193 @@
+/* 
+
+
+
+.Resform {
+    display: flex;
+    position: absolute;
+    right: 80px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 1000px;
+    background-color: #61c2dd;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    font: bold;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    border-radius: 20px !important;
+ 
+    
+}
+
+.item {
+    width: 100%;
+    border-radius: 20px !important;
+}
+
+.Button-cons {
+    text-align: center;
+}
+.ant-picker {
+    border-radius: 20px !important;
+}
+
+
+.primary-button {
+   
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #40a9ff;
+}
+
+.primary-button.my-2{
+    background-color: #151050 !important;
+}
+
+
+
+/*  */
+
+/* CustomTimePicker.css */
+
+Style for the Radio.Group component */
+.ant-radio-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style for the Radio.Button components */
+.ant-radio-button-wrapper {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Style for the selected Radio.Button */
+.ant-radio-button-wrapper.ant-radio-button-wrapper-checked {
+    background-color: #1890ff;
+    color: #fff;
+}
+
+/* Style for the Radio.Button label */
+.ant-radio-button-wrapper .ant-radio-button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #d9d9d9;
+}
+
+/* Style for the Radio.Button label when checked */
+.ant-radio-button-wrapper-checked .ant-radio-button {
+    border-color: #1890ff;
+}
+
+/* Style for the Radio.Button label text */
+.ant-radio-button-wrapper .ant-radio-button-inner {
+    padding: 0;
+}
+
+/* Style for the Radio.Button label text when checked */
+.ant-radio-button-wrapper-checked .ant-radio-button-inner {
+    color: #fff;
+}
+
+/* ResForm.css */
+
+/* Custom styles for the DatePicker component */
+
+/* Custom styles for the CustomTimePicker component */
+.time-picker-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-picker-option {
+    flex: 1;
+    margin: 0 8px;
+}
+
+.time-picker-option input {
+    display: none;
+}
+
+.time-picker-option label {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.time-picker-option input:checked+label {
+    background-color: #1890ff;
+    color: #fff;
+}
+
+
+/* ResForm.css */
+
+/* Custom styles for the next month button in the DatePicker component */
+.ant-picker-header-super-next-btn {
+    border-color: transparent;
+    background: transparent;
+}
+
+/* Custom styles for the arrow icon in the next month button */
+.ant-picker-header-super-next-btn-icon {
+    color: #1890ff;
+    /* Change the color of the arrow icon */
+    font-size: 16px;
+    /* Adjust the size of the arrow icon */
+}
+
+
+.custom-date-picker {
+    width: 100%;
+   
+}
+
+.ant-picker-input>input {
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.ant-picker-suffix {
+    display: none;
+}
+
+.ant-picker-panel-container {
+    width: 100%;
+}
+
+/* Style for custom date picker */
+.custom-date-picker .ant-picker-input {
+    width: 100%;
+    text-align: center;
+}
+
+/* Hide calendar icon */
+.custom-date-picker .ant-picker-suffix {
+    display: none;
+}

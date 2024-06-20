@@ -1,0 +1,40 @@
+.rep{
+    color: #353434;
+    font-size: 70px;
+    padding-left: 420px;
+}
+
+.ledbox {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background: transparent;
+    color: #000000;
+    background-color: rgba(175, 173, 173, 0.8); 
+    opacity: 0.9;
+    text-align: center; 
+    font-weight:1000;
+    width: 550px;
+    border-radius: 10px;
+    margin-left: 260px;
+}
+
+.profit{
+    font-weight: bold; 
+    color: rgb(209, 1, 1); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.id{
+    font-weight: 800; 
+    color:blue;
+}
+
+.ledprimary-button{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 470px;
+}
+

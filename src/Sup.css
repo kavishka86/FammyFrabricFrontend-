@@ -1,0 +1,70 @@
+.annform {
+    /* background-image: url('istockphoto-177281717-612x612.jpg'); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(5px); /* Apply the blur effect */
+}
+
+.AnnHRSup_form {
+    background-color: rgba(255, 255, 255, 0.8); /* Add opacity to the background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-size: 20dp;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table-container {
+    /* background-image: url('istockphoto-177281717-612x612.jpg'); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* /overflow: hidden; / Ensure that the background image doesn't overflow */ 
+    backdrop-filter: blur(5px);
+}
+
+.table-wrapper {
+    background-color: rgba(255, 255, 255, 0.8); /* Add opacity to the background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+
+.update-button {
+    background-color: #1890ff; 
+    color: black;
+    border: none;
+    background-color: #40a9ff; /* Darker shade on hover */
+    border-color: #40a9ff;
+}
+
+.delete-button {
+    /* /background-color: #ff4d4f; / Red color */
+    color: black;
+    border: none;
+    background-color: #ff7875; /* Darker shade on hover */
+    border-color: #ff7875;
+}
+
+.order{
+    margin-left: 8px;
+    background-color: #52c41a;
+    border-color: #52c41a;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

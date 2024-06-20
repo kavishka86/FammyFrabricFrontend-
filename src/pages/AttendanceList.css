@@ -1,0 +1,40 @@
+/* Container styling */
+.container {
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Header styling */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Table container styling */
+.ant-table {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Button container styling */
+.button-container {
+    margin-bottom: 16px;
+}
+
+/* Employee attendance counts styling */
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Employee attendance counts list styling */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Employee attendance count item styling */
+li {
+    margin-bottom: 8px;
+}

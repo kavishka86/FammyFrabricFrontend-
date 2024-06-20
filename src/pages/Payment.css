@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    font-family: "Lato", sans-serif;
+}
+
+.text1{
+    text-align: center;
+    margin: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.text2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-details{
+    background: #ffffff;
+    border-radius: 4px;
+    -ms-text-combine-horizontal: 20px auto;
+    padding: 20px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 05);
+    margin: 20px;
+}
+
+
+.form-container {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #a3c9fd;
+    margin-top: 10px;
+}
+
+.form-container h2 {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-container input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius:5px;
+    box-sizing: border-box;
+}
+
+.form-container button[type="submit"]:hover {
+    padding: 10px 20px;
+    background-color: #1d5795;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Add some spacing between form elements */
+.form-container br {
+    margin-bottom: 10px;
+}
+
+.card{
+    box-shadow: 0 0 20px gray;
+    border-radius:  10px !important;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    font-size: large;
+    font-family: Helvetica;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    margin-right: 25px;
+    border: #fff;
+    border-radius: 5px;
+  }
+  
+  .update-btn {
+    background-color: green;
+    color: white;
+    border: #fff;
+    border-radius: 5px;
+  }
+
+  .savedCards-btn{
+    margin: 20px;
+    background-color: green;
+    color: white;
+    border: #fff;
+    border-radius: 5px;
+    padding: 3.3px;
+  }
+
+  .background{
+    background-color: #e8e8e8;
+    padding: 10px;
+    padding-bottom: 300px;
+  }
+
+  .highlight {
+    background-color: #01ddffcf;
+    padding: 5px; 
+    border-radius: 5px; 
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .highlight2 {
+    background-color: #6ee7ff;
+    padding: 5px; 
+    border-radius: 5px; 
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }

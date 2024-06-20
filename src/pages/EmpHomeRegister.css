@@ -1,0 +1,51 @@
+/*Registration form css*/
+
+.annform {
+    background-image: url('../pages/image/Employee.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    margin: 0; /* Reset default body margin */
+    padding: 0; /* Reset default body padding */
+
+}
+
+.AnnHRSup_form {
+    max-width: 100%;
+    width: 400px; /* Set a fixed width for larger screens */
+    background-color: #dadbde;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 480px) {
+    .AnnHRSup_form {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.item {
+    width: 100%;
+}
+
+.primary-button {
+    width: 100%;
+}
+
+.Button-cons {
+    margin-top: 20px;
+}
+
+
